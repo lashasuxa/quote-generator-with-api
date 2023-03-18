@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>random quote generator</title>
+  </head>
+  <body>
+    <h1>Notable quotes</h1>
+
+    <p>
+      <label for="topicSelection">Select a topic</label>
+      <select id="topicSelection">
+        <option>Choose one</option>
+        <option>love</option>
+        <option>motivation</option>
+        <option>wisdom</option>
+        <option>humor</option>
+      </select>
+    </p>
+    <p>
+      <label for="countSelection">How many quotes?</label>
+      <select id="countSelection">
+        <option>1</option>
+        <option>2</option>
+        <option selected>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </p>
+    <p>
+      <button id="fetchQuotesBtn">fetch quotes</button>
+    </p>
+    <div id="quotes"></div>
+  </body>
+</html>
